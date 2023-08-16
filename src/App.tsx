@@ -24,7 +24,7 @@ function App() {
                                 <p>Most golfers don’t want to waste time to record their statistics</p>
                             </div>
                             <a className='button_pdf'
-                               rel="noopener"
+                               rel="noopener noreferrer"
                                href='https://www.google.com/'
                                target='_blank'>Описание приложения</a>
                         </div>
