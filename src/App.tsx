@@ -24,7 +24,8 @@ function App() {
                                 <p>Most golfers don’t want to waste time to record their statistics</p>
                             </div>
                             <a className='button_pdf'
-                               href='#'
+                               rel="noopener noreferrer"
+                               href='https://www.google.com/'
                                target='_blank'>Описание приложения</a>
                         </div>
                     </div>
@@ -75,8 +76,8 @@ function App() {
             <h2 className='cooperation'>Interested in cooperation:</h2>
             <div className='cards_section'>
                 <div className='cards'>
-                    <Card linkA4='#' linkA5='#' title='FOR GOLF CLUB'/>
-                    <Card linkA4='#' linkA5='#' title='FOR GOLF HOTELS'/>
+                    <Card linkA4='https://www.google.com/' linkA5='https://www.google.com/' title='FOR GOLF CLUB'/>
+                    <Card linkA4='https://www.google.com/' linkA5='https://www.google.com/' title='FOR GOLF HOTELS'/>
                 </div>
                 <div className='support'>
                     <p className='size'>ANY QUESTIONS?</p>
