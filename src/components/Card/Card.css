@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    min-width: 400px;
+    min-height: 300px;
+    border-radius: 20px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.title_card {
+    font-size: 20px;
+    font-weight: bold;
+}

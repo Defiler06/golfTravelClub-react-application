@@ -1,0 +1,10 @@
+.qr_code {
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    background-image: url("../../assets/QR.png");
+}
+
+.title_OS {
+    font-size: 25px;
+}
