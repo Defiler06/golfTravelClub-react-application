@@ -34,7 +34,6 @@
 
 @media screen and (max-width: 768px) {
     .qr_code {
-        margin-left: 20px;
         width: 200px;
         height: 200px;
     }
