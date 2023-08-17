@@ -404,7 +404,7 @@ a {
         flex-wrap: wrap;
     }
     .title_our_app {
-        padding: 20px 0;
+        padding-bottom: 80px;
         height: 800px;
     }
     .statistic_title {
