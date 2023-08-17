@@ -138,7 +138,6 @@ a {
 }
 
 .paragraph {
-    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -309,7 +308,12 @@ a {
     }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 580px) {
+    .title_our_app {
+        height: 700px;
+        margin-bottom: 30px;
+    }
+
     .cards {
         width: 200px;
         height: 400px;
@@ -325,7 +329,16 @@ a {
 }
 
 @media screen and (max-width: 810px) {
+    .our_app {
+        margin-bottom: 30px;
+    }
+
+    .container {
+        max-width: 80%;
+    }
+
     .phone_container {
+        max-width: 80%;
         flex-direction: column-reverse;
         align-items: center;
     }
@@ -333,17 +346,12 @@ a {
     .phone_section {
         justify-content: space-between;
         min-height: 100vh;
-        margin:0 auto;
+        margin: 0 auto;
     }
 
     .qr_codes {
-        width: 200px;
         align-items: center;
         justify-content: center;
-    }
-
-    .qr_codes {
-        max-width: 300px;
     }
 
     .title_our_app {
@@ -382,39 +390,87 @@ a {
     }
 }
 
-@media screen and (max-width: 768px) {
-    .qr_codes {
-        flex-direction: row;
-    }
 
-    .title_our_app {
-        height: 600px;
+@media screen and (max-width: 523px) {
+    .main_title {
+        line-height: 35px;
     }
-
-    .cards {
-        width: 75%;
-    }
-}
-
-@media screen and (max-width: 425px) {
+    
     .button_pdf {
         margin-top: 20px;
     }
+
     .qr_codes {
         flex-wrap: wrap;
     }
+
     .title_our_app {
         padding-bottom: 80px;
         height: 800px;
     }
+
     .statistic_title {
         padding: 10px;
     }
+
     .our_app {
         margin-bottom: 30px;
     }
+
     .our_app_subtitle {
         font-size: 16px;
     }
-}
 
+    .container {
+        max-width: 80%;
+    }
+
+    .phone_container {
+        max-width: 80%;
+    }
+
+    .main_title {
+        font-size: 25px;
+    }
+
+    .title_about {
+        font-size: 20px;
+    }
+
+    .subtitle_about {
+        font-size: 15px;
+    }
+
+    .button_pdf {
+        font-size: 15px;
+    }
+
+    .our_app_title {
+        font-size: 15px;
+    }
+
+    .phone {
+        width: 200px;
+        height: 390px;
+    }
+
+    .our_app_subtitle {
+        font-size: 15px;
+    }
+
+    .good_luck {
+        font-size: 25px;
+    }
+
+    .title_our_app {
+        height: 670px;
+    }
+
+    .statistic_title {
+        font-size: 20px;
+    }
+
+    .cooperation {
+        font-size: 25px;
+    }
+}
