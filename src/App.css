@@ -1,215 +1,420 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  font-family: Montserrat;
-  color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    color: black;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 #root {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
 .container {
-  max-width: 1400px;
-  margin: 0 auto;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .our_app {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 110px;
-  width: 100%;
-  background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 110px;
+    width: 100%;
+    background: white;
 }
 
 .our_app_title {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .green_text {
-  font-weight: bold;
-  color: #113932;
+    font-weight: bold;
+    color: #113932;
 }
 
 .phone {
-  background-size: cover;
-  width: 400px;
-  height: 690px;
-  background-image: url("./assets/phone.png");
+    background-size: cover;
+    width: 400px;
+    height: 740px;
+    background-image: url("./assets/phone.png");
 }
 
 .phone_section {
-  max-width: 1100px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  min-height: 700px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 700px;
 }
 
 .our_app_subtitle {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  font-size: 20px;
-  max-width: 700px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 20px;
+    max-width: 700px;
 }
 
 .title_our_app {
-  margin-top: 50px;
-  max-width: 600px;
-  min-height: 550px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  font-size: 30px;
+    margin-left: 50px;
+    margin-top: 50px;
+    max-width: 600px;
+    min-height: 550px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 30px;
 }
 
 .good_luck {
-  margin-top: 20px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  font-size: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-size: 30px;
 }
 
 .qr_codes {
-  width: 600px;
-  display: flex;
-  justify-content: space-between;
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .phone_container {
-  margin-top: 50px;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 }
 
 .statistic_section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 140px;
-  width: 100%;
-  background: #113932;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 140px;
+    width: 100%;
+    background: #113932;
 }
 
 .statistic_title {
-  font-size: 40px;
-  color: white;
+    font-size: 40px;
+    color: white;
 }
 
 .white_text {
-  color: white;
+    color: white;
 }
 
 .background {
-  background-size: cover;
-  max-width: 100%;
-  min-height: 100vh;
-  background-image: url("./assets/background.png");
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url("./assets/background.png");
 }
 
 .logo {
-  background-size: contain;
-  width: 200px;
-  height: 200px;
-  background-image: url("./assets/logo.png");
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    background-image: url("./assets/logo.png");
 }
 
 .main_title {
-  font-size: 40px;
-  font-weight: bold;
-  max-width: 910px;
-  line-height: 50px;
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 910px;
+    line-height: 50px;
 }
 
 .title_about {
-  font-size: 30px;
-  font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .paragraph {
-  padding-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .underline {
-  border-bottom: 3px black solid;
+    border-bottom: 3px black solid;
 }
 
 .subtitle_about {
-  font-size: 22px;
-  max-width: 700px;
+    font-size: 22px;
+    max-width: 700px;
 }
 
 .button_pdf {
-  border-radius: 20px;
-  max-width: 400px;
-  padding: 20px;
-  font-size: 20px;
-  background: none;
-  border: 3px black solid;
+    border-radius: 20px;
+    max-width: 400px;
+    padding: 20px;
+    font-size: 20px;
+    background: none;
+    border: 3px black solid;
 }
 
 .about_us {
-  margin: 40px;
-  min-height: 380px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+    margin: 40px;
+    min-height: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
 }
 
 .cooperation {
-  font-size: 35px;
-  margin-top: 40px;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .cards {
-  margin-top: 50px;
-  max-width: 1100px;
-  display: flex;
-  justify-content: space-between;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cards_section {
-  max-width: 1100px;
-  margin: 0 auto;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
 .size {
-  font-size: 22px;
+    font-size: 22px;
 }
 
 .support {
-  margin-top: 60px;
-  margin-bottom: 50px;
-}
-
-.button_pdf_format {
-  border-radius: 20px;
-  width: 200px;
-  padding: 20px;
-  font-size: 20px;
-  background: none;
-  border: 3px black solid;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 
 .background_section {
-  background-size: cover;
-  max-width: 100%;
-  min-height: 100vh;
-  background-image: url("./assets/background_section.png");
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100vh;
+    background-image: url("./assets/background_section.png");
 }
+
+@media screen and (max-width: 1255px) {
+    .phone_container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .qr_codes {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1117px) {
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+
+    .main_title {
+        font-size: 35px;
+    }
+
+    .title_about {
+        font-size: 25px;
+    }
+
+    .subtitle_about {
+        font-size: 17px;
+    }
+
+    .button_pdf {
+        font-size: 15px;
+    }
+
+    .our_app_title {
+        font-size: 20px;
+    }
+
+    .our_app_subtitle {
+        font-size: 15px;
+    }
+
+    .title_our_app {
+        height: 300px;
+    }
+
+    .qr_codes {
+        max-width: 500px;
+    }
+
+    .phone {
+        width: 350px;
+        height: 650px;
+    }
+
+    .statistic_title {
+        font-size: 30px;
+    }
+
+    .cooperation {
+        font-size: 30px;
+    }
+
+    .size {
+        font-size: 17px;
+    }
+
+    .our_app {
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 935px) {
+    .good_luck {
+        align-items: center;
+    }
+
+    .our_app_subtitle {
+        align-items: center;
+    }
+
+    .qr_codes {
+        flex-direction: column;
+    }
+
+    .phone {
+        width: 350px;
+        height: 650px;
+    }
+
+    .qr_codes {
+        max-width: 600px;
+        min-height: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .title_our_app {
+        min-height: 300px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .cards {
+        width: 200px;
+        height: 400px;
+        flex-direction: column;
+    }
+
+    .cards_section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .phone_container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .phone_section {
+        justify-content: space-between;
+        min-height: 100vh;
+        margin:0 auto;
+    }
+
+    .qr_codes {
+        width: 200px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .qr_codes {
+        max-width: 300px;
+    }
+
+    .title_our_app {
+        height: 750px;
+        align-items: center;
+    }
+
+    .qr_codes {
+        align-items: center;
+    }
+
+    .phone {
+        background-size: cover;
+        width: 330px;
+        height: 550px;
+    }
+
+    .statistic_title {
+        font-size: 25px;
+    }
+
+    .cards {
+        width: 100%;
+    }
+
+    .title_our_app {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .phone {
+        background-size: cover;
+        width: 230px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .qr_codes {
+        flex-direction: row;
+    }
+
+    .title_our_app {
+        height: 600px;
+    }
+
+    .cards {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .button_pdf {
+        margin-top: 20px;
+    }
+    .qr_codes {
+        flex-wrap: wrap;
+    }
+    .title_our_app {
+        padding: 20px 0;
+        height: 800px;
+    }
+    .statistic_title {
+        padding: 10px;
+    }
+    .our_app {
+        margin-bottom: 30px;
+    }
+    .our_app_subtitle {
+        font-size: 16px;
+    }
+}
+

@@ -9,8 +9,8 @@ function App() {
                 <div className='container'>
                     <div className='paragraph'>
                         <div className='logo'></div>
-                        <p className='main_title'>ДОБРО ПОЖАЛОВАТЬ</p>
-                        <p className='main_title underline'>В GOLF TRAVELERS CLUB!</p>
+                        <p className='main_title'>WELCOME</p>
+                        <p className='main_title underline'>GOLF TRAVELERS CLUB!</p>
                         <div className='about_us'>
                             <h2 className='title_about'>About us</h2>
                             <div className='subtitle_about'>
@@ -26,7 +26,7 @@ function App() {
                             <a className='button_pdf'
                                rel="noopener noreferrer"
                                href='https://www.google.com/'
-                               target='_blank'>Описание приложения</a>
+                               target='_blank'>App description</a>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,6 @@ function App() {
                 </div>
             </div>
             <div className='background'>
-                <div className='container'>
                     <div className='phone_section'>
                         <div className='phone_container'>
                             <div className='title_our_app'>
@@ -65,7 +64,6 @@ function App() {
                             <div className='phone'></div>
                         </div>
                     </div>
-                </div>
             </div>
             <div className='statistic_section'>
                 <div className='statistic_title'>
