@@ -201,37 +201,6 @@ a {
     background-image: url("./assets/background_section.png");
 }
 
-@media screen and (max-width: 1024px) {
-    .phone_container {
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        padding: 30px;
-    }
-
-    .container {
-        max-width: 900px;
-    }
-
-    .title_our_app {
-        width: 60%;
-        margin-left: 0px;
-    }
-
-    .our_app_subtitle {
-        align-items: center;
-    }
-
-    .good_luck {
-        align-items: center;
-    }
-
-    .statistic_title {
-        font-size: 30px;
-    }
-}
-
 @media screen and (max-width: 1440px) {
     .our_app_subtitle {
         font-size: 25px;
@@ -269,6 +238,48 @@ a {
     }
 }
 
+@media screen and (max-width: 1265px) {
+    .paragraph {
+        padding: 110px;
+    }
+
+    .our_app {
+        top: -4px;
+        position: relative;
+        z-index: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .phone_container {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .container {
+        max-width: 900px;
+    }
+
+    .title_our_app {
+        width: 60%;
+        margin-left: 0px;
+    }
+
+    .our_app_subtitle {
+        align-items: center;
+    }
+
+    .good_luck {
+        align-items: center;
+    }
+
+    .statistic_title {
+        font-size: 30px;
+    }
+}
 @media screen and (max-width: 768px) {
     .main_title {
         font-size: 30px;
