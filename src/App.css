@@ -19,6 +19,7 @@ a {
 .container {
     max-width: 1400px;
     margin: 0 auto;
+    min-height: 100%;
 }
 
 .our_app {
@@ -64,8 +65,6 @@ a {
 .title_our_app {
     margin-left: 50px;
     margin-top: 50px;
-    max-width: 600px;
-    min-height: 550px;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -81,14 +80,13 @@ a {
 }
 
 .qr_codes {
-    max-width: 600px;
     display: flex;
     justify-content: space-between;
 }
 
 .phone_container {
-    margin: 0 auto;
-    width: 80%;
+    padding: 100px;
+    height: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -114,7 +112,6 @@ a {
 .background {
     background-size: cover;
     max-width: 100%;
-    min-height: 100vh;
     background-image: url("./assets/background.png");
 }
 
@@ -138,7 +135,7 @@ a {
 }
 
 .paragraph {
-    padding-top: 50px;
+    padding: 150px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -165,7 +162,6 @@ a {
 
 .about_us {
     margin: 40px;
-    min-height: 380px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -179,15 +175,15 @@ a {
 }
 
 .cards {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
 
-.cards_section {
-    max-width: 1100px;
-    margin: 0 auto;
+.wrap {
+    width: 100%;
+    min-height: 100%;
 }
 
 .size {
@@ -202,30 +198,81 @@ a {
 .background_section {
     background-size: cover;
     max-width: 100%;
-    min-height: 100vh;
     background-image: url("./assets/background_section.png");
 }
 
-@media screen and (max-width: 1255px) {
+@media screen and (max-width: 1024px) {
     .phone_container {
-        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .container {
+        max-width: 900px;
+    }
+
+    .title_our_app {
+        width: 60%;
+        margin-left: 0px;
+    }
+
+    .our_app_subtitle {
+        align-items: center;
+    }
+
+    .good_luck {
+        align-items: center;
+    }
+
+    .statistic_title {
+        font-size: 30px;
     }
 }
 
-@media screen and (min-width: 1120px) {
-    .qr_codes {
-        margin-bottom: 30px;
-    }
-}
-
-@media screen and (max-width: 1117px) {
-    .logo {
-        width: 150px;
-        height: 150px;
+@media screen and (max-width: 1440px) {
+    .our_app_subtitle {
+        font-size: 25px;
     }
 
-    .main_title {
+    .good_luck {
         font-size: 35px;
+    }
+
+    .cards {
+        max-width: 1000px;
+    }
+
+    .phone_container {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+    .container {
+        max-width: 1200px;
+    }
+
+    .phone {
+        width: 300px;
+        height: 580px;
+    }
+
+    .qr_codes {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .main_title {
+        font-size: 30px;
+        line-height: 34px;
     }
 
     .title_about {
@@ -233,181 +280,87 @@ a {
     }
 
     .subtitle_about {
-        font-size: 17px;
-    }
-
-    .button_pdf {
-        font-size: 15px;
-    }
-
-    .our_app_title {
         font-size: 20px;
     }
 
-    .our_app_subtitle {
-        font-size: 15px;
-    }
-
-    .title_our_app {
-        height: 300px;
-    }
-
-    .qr_codes {
-        max-width: 500px;
-    }
-
-    .phone {
-        width: 350px;
-        height: 650px;
-    }
-
-    .statistic_title {
-        font-size: 30px;
-    }
-
-    .cooperation {
-        font-size: 30px;
-    }
-
-    .size {
-        font-size: 17px;
-    }
-
-    .our_app {
-        margin: 0 auto;
-        width: 90%;
-    }
-}
-
-@media screen and (max-width: 935px) {
-    .good_luck {
-        align-items: center;
-    }
-
-    .our_app_subtitle {
-        align-items: center;
-    }
-
-    .qr_codes {
-        flex-direction: column;
-    }
-
-    .phone {
-        width: 350px;
-        height: 650px;
-    }
-
-    .qr_codes {
-        max-width: 600px;
-        min-height: 400px;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .title_our_app {
-        min-height: 300px;
-    }
-}
-
-@media screen and (max-width: 580px) {
-    .title_our_app {
-        height: 700px;
-        margin-bottom: 30px;
-    }
-
-    .cards {
-        width: 200px;
-        height: 400px;
-        flex-direction: column;
-    }
-
-    .cards_section {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 810px) {
-    .our_app {
-        margin-bottom: 30px;
+    .our_app_title {
+        font-size: 22px;
     }
 
     .container {
-        max-width: 80%;
+        max-width: 650px;
     }
 
-    .phone_container {
-        max-width: 80%;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .phone_section {
-        justify-content: space-between;
-        min-height: 100vh;
-        margin: 0 auto;
-    }
-
-    .qr_codes {
-        align-items: center;
-        justify-content: center;
-    }
-
-    .title_our_app {
-        height: 650px;
-        align-items: center;
-    }
-
-    .qr_codes {
-        align-items: center;
+    .paragraph {
+        padding: 60px;
     }
 
     .phone {
-        background-size: cover;
-        width: 330px;
-        height: 550px;
+        width: 300px;
+        height: 580px;
+    }
+
+    .our_app_subtitle {
+        font-size: 20px;
+    }
+
+    .good_luck {
+        font-size: 25px;
     }
 
     .statistic_title {
         font-size: 25px;
     }
 
+    .cooperation {
+        font-size: 25px;
+    }
+
+    .size {
+        font-size: 15px;
+    }
+
     .cards {
-        width: 100%;
-    }
-
-    .title_our_app {
-        margin-left: 0px;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .phone {
-        background-size: cover;
-        width: 230px;
-        height: 450px;
-    }
-}
-
-
-@media screen and (max-width: 523px) {
-    .main_title {
-        line-height: 35px;
-    }
-    
-    .button_pdf {
-        margin-top: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 900px;
     }
 
     .qr_codes {
         flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .paragraph {
+        padding: 20px 0px;
+    }
+
+    .phone_container {
+        padding: 0px;
+    }
+
+    .main_title {
+        font-size: 25px;
+        line-height: 25px;
+    }
+
+    .qr_codes {
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .container {
+        max-width: 320px;
     }
 
     .title_our_app {
+        width: 100%;
         padding-bottom: 80px;
-        height: 800px;
+        height: 670px;
     }
 
     .statistic_title {
@@ -422,20 +375,16 @@ a {
         font-size: 16px;
     }
 
-    .container {
-        max-width: 80%;
-    }
-
-    .phone_container {
-        max-width: 80%;
-    }
-
     .main_title {
-        font-size: 25px;
+        font-size: 20px;
+    }
+
+    .underline {
+        border-bottom: 2px solid black;
     }
 
     .title_about {
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .subtitle_about {
@@ -463,15 +412,62 @@ a {
         font-size: 25px;
     }
 
-    .title_our_app {
-        height: 670px;
-    }
-
     .statistic_title {
         font-size: 20px;
     }
 
     .cooperation {
         font-size: 25px;
+    }
+
+    .about_us {
+        margin: 10px;
+    }
+
+    .cards {
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .phone {
+        width: 180px;
+        height: 350px;
+    }
+
+    .our_app_subtitle {
+        font-size: 12px;
+    }
+
+    .good_luck {
+        font-size: 15px;
+    }
+
+    .title_our_app {
+        padding-bottom: 40px;
+        height: 550px;
+    }
+
+    .statistic_title {
+        font-size: 15px;
+    }
+
+    .cooperation {
+        font-size: 18px;
+    }
+
+    .size {
+        font-size: 12px;
+    }
+
+    .container {
+        max-width: 220px;
     }
 }
