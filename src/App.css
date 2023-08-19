@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&family=Merriweather&display=swap');
 
 * {
     margin: 0;
@@ -124,10 +125,10 @@ a {
 }
 
 .main_title {
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
     max-width: 910px;
-    line-height: 60px;
+    line-height: 50px;
 }
 
 .title_about {
@@ -146,7 +147,7 @@ a {
 
 .underline {
     border-bottom: 3px black solid;
-    font-family: -apple-system;
+    font-family: Amiri;
 }
 
 .subtitle_about {
