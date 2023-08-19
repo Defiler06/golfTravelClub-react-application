@@ -97,12 +97,13 @@ a {
     justify-content: center;
     min-height: 140px;
     width: 100%;
-    background: #113932;
+    background: #056226;
 }
 
 .statistic_title {
     font-size: 40px;
     color: white;
+    font-weight: bold;
 }
 
 .white_text {
@@ -123,10 +124,10 @@ a {
 }
 
 .main_title {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     max-width: 910px;
-    line-height: 50px;
+    line-height: 60px;
 }
 
 .title_about {
@@ -135,7 +136,8 @@ a {
 }
 
 .paragraph {
-    padding: 150px;
+    padding-top: 120px;
+    padding-bottom: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,6 +146,7 @@ a {
 
 .underline {
     border-bottom: 3px black solid;
+    font-family: -apple-system;
 }
 
 .subtitle_about {
