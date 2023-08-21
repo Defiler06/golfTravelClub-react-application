@@ -31,9 +31,11 @@ function App() {
                 <div className='our_app'>
                     <div className='container'>
                         <div className='our_app_title'>
-                            <p>Our application will help such people. Now golfers can easily create</p>
+                            <p>Our application will help such people.</p>
+                            <p>Now golfers can easily create <span
+                                className='green_text'>a LIFETIME COLLECTION OF</span></p>
                             <p><span
-                                className='green_text'>a LIFETIME COLLECTION OF THEIR COUNTRIES AND GOLF CLUBS</span> they
+                                className='green_text'>OF THEIR COUNTRIES AND GOLF CLUBS</span> they
                                 have played in.</p>
                         </div>
                     </div>
@@ -43,13 +45,11 @@ function App() {
                         <div className='phone_container'>
                             <div className='title_our_app'>
                                 <div className='our_app_subtitle'>
-                                    <p>The reward will be your personal</p>
-                                    <p className='green_text'>CERTIFICATE OF ACHIEVEMENTS</p>
-                                    <p>which you can send to your friends, business partners.</p>
-                                    <p>You can print it out and hang it in</p>
+                                    <p>The reward will be your</p>
+                                    <p className='green_text'>PERSONAL CERTIFICATE OF ACHIEVEMENTS</p>
+                                    <p>which Golfers can send to their friends, business partners.</p>
+                                    <p>They can print it out and hang it in</p>
                                     <p>a beautiful frame at home or in the office.</p>
-                                    <p>Your family, your friends will be proud of you!</p>
-                                    <p>And your children will take an example from you!</p>
                                     <div className='good_luck'>
                                         <p className='green_text'>Good luck</p>
                                         <p className='green_text'>and enjoy your golf travels!</p>
@@ -73,10 +73,13 @@ function App() {
                     </div>
                 </div>
                 <div className='container'>
-                    <h2 className='cooperation'>Interested in cooperation:</h2>
+                    <div className='block_cooperation'>
+                        <p className='cooperation'>Interested in cooperation?</p>
+                        <p className='cooperation'>just print and advertise!</p>
+                    </div>
                     <div className='cards'>
                         <Card linkA4='https://www.google.com/' linkA5='https://www.google.com/'
-                              title='FOR GOLF CLUB'/>
+                              title='FOR GOLF CLUBS'/>
                         <Card linkA4='https://www.google.com/' linkA5='https://www.google.com/'
                               title='FOR GOLF HOTELS'/>
                     </div>

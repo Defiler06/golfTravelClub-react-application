@@ -33,7 +33,7 @@ a {
 }
 
 .our_app_title {
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .green_text {
@@ -59,7 +59,7 @@ a {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 24px;
     max-width: 700px;
 }
 
@@ -174,8 +174,18 @@ a {
 
 .cooperation {
     font-size: 35px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0px;
+}
+
+.block_cooperation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .cards {
@@ -432,7 +442,7 @@ a {
     }
 
     .cooperation {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .about_us {
