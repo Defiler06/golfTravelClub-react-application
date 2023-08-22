@@ -45,7 +45,7 @@ function App() {
                         <div className='phone_container'>
                             <div className='title_our_app'>
                                 <div className='our_app_subtitle'>
-                                    <p>The reward will be your</p>
+                                    <p>The reward will be the</p>
                                     <p className='green_text'>PERSONAL CERTIFICATE OF ACHIEVEMENTS</p>
                                     <p>which Golfers can send to their friends, business partners.</p>
                                     <p>They can print it out and hang it in</p>
