@@ -2,7 +2,7 @@
     background-size: cover;
     width: 250px;
     height: 250px;
-    background-image: url("../../assets/QR.png");
+    background-image: url("../../assets/not_qr.png");
 }
 
 .qr_block {

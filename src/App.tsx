@@ -78,9 +78,9 @@ function App() {
                         <p className='cooperation'>just print and advertise!</p>
                     </div>
                     <div className='cards'>
-                        <Card linkA4='https://drive.google.com/file/d/1w5bTiBhXdwycbk_LKXbDpkh45435iAnM/view?usp=drive_link' linkA5='https://drive.google.com/file/d/1DsQva0HKunrOR6hcggWJXJKJa2G1hR_A/view?usp=drive_link'
+                        <Card linkA4='https://drive.google.com/file/d/1DsQva0HKunrOR6hcggWJXJKJa2G1hR_A/view?usp=drive_link ' linkA5='https://drive.google.com/file/d/1w5bTiBhXdwycbk_LKXbDpkh45435iAnM/view?usp=drive_link'
                               title='FOR GOLF CLUBS'/>
-                        <Card linkA4='https://drive.google.com/file/d/1Q4rODV8WfLKf266vOl0jgPPjnV8RWFpe/view?usp=drive_link' linkA5='https://drive.google.com/file/d/12lvy1n_DS-taT_j0AW6VQWhn2Oi0EWmu/view?usp=drive_link'
+                        <Card linkA4='https://drive.google.com/file/d/12lvy1n_DS-taT_j0AW6VQWhn2Oi0EWmu/view?usp=drive_link' linkA5='https://drive.google.com/file/d/1Q4rODV8WfLKf266vOl0jgPPjnV8RWFpe/view?usp=drive_link'
                               title='FOR GOLF HOTELS'/>
                     </div>
                     <div className='support'>
