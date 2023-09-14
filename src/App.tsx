@@ -35,7 +35,7 @@ function App() {
                             <p>Now golfers can easily create <span
                                 className='green_text'>a LIFETIME COLLECTION OF</span></p>
                             <p><span
-                                className='green_text'>OF THEIR COUNTRIES AND GOLF CLUBS</span> they
+                                className='green_text'>THEIR COUNTRIES AND GOLF CLUBS</span> they
                                 have played in.</p>
                         </div>
                     </div>
@@ -78,12 +78,16 @@ function App() {
                         <p className='cooperation'>just print and advertise!</p>
                     </div>
                     <div className='cards'>
-                        <Card linkA4='https://drive.google.com/file/d/1DsQva0HKunrOR6hcggWJXJKJa2G1hR_A/view?usp=drive_link ' linkA5='https://drive.google.com/file/d/1w5bTiBhXdwycbk_LKXbDpkh45435iAnM/view?usp=drive_link'
-                              title='FOR GOLF CLUBS'/>
-                        <Card linkA4='https://drive.google.com/file/d/12lvy1n_DS-taT_j0AW6VQWhn2Oi0EWmu/view?usp=drive_link' linkA5='https://drive.google.com/file/d/1Q4rODV8WfLKf266vOl0jgPPjnV8RWFpe/view?usp=drive_link'
-                              title='FOR GOLF HOTELS'/>
+                        <Card
+                            linkA4='https://drive.google.com/file/d/1DsQva0HKunrOR6hcggWJXJKJa2G1hR_A/view?usp=drive_link '
+                            linkA5='https://drive.google.com/file/d/1w5bTiBhXdwycbk_LKXbDpkh45435iAnM/view?usp=drive_link'
+                            title='FOR GOLF CLUBS'/>
+                        <Card
+                            linkA4='https://drive.google.com/file/d/12lvy1n_DS-taT_j0AW6VQWhn2Oi0EWmu/view?usp=drive_link'
+                            linkA5='https://drive.google.com/file/d/1Q4rODV8WfLKf266vOl0jgPPjnV8RWFpe/view?usp=drive_link'
+                            title='FOR GOLF HOTELS'/>
                     </div>
-                    <div className='support'>
+                    <div className='support'>++++--+
                         <p className='size'>ANY QUESTIONS?</p>
                         <p><a href="mailto:INFO@GOLFTRAVELCLUB.APP"
                               className='green_text size'>INFO@GOLFTRAVELCLUB.APP</a>
