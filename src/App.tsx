@@ -87,7 +87,7 @@ function App() {
                             linkA5='https://drive.google.com/file/d/1e4itmkxleM-hx0ccSmhAD8ZYc4AqcZGU/view?usp=drive_link'
                             title='FOR GOLF HOTELS'/>
                     </div>
-                    <div className='support'>++++--+
+                    <div className='support'>
                         <p className='size'>ANY QUESTIONS?</p>
                         <p><a href="mailto:INFO@GOLFTRAVELCLUB.APP"
                               className='green_text size'>INFO@GOLFTRAVELCLUB.APP</a>
