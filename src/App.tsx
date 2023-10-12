@@ -56,8 +56,8 @@ function App() {
                                     </div>
                                 </div>
                                 <div className='qr_codes'>
-                                    <Qr title='IOS'/>
-                                    <Qr title='ANDROID'/>
+                                    <Qr title='IOS' className='qr_code_iphone'/>
+                                    <Qr title='ANDROID' className='qr_code_android'/>
                                 </div>
                             </div>
                             <div className='phone'></div>
@@ -79,12 +79,12 @@ function App() {
                     </div>
                     <div className='cards'>
                         <Card
-                            linkA4='https://drive.google.com/file/d/1DsQva0HKunrOR6hcggWJXJKJa2G1hR_A/view?usp=drive_link '
-                            linkA5='https://drive.google.com/file/d/1w5bTiBhXdwycbk_LKXbDpkh45435iAnM/view?usp=drive_link'
+                            linkA4='https://drive.google.com/file/d/1q8FNnzdyA71YgY8r1Efgds2imwaIuIeO/view?usp=drive_link'
+                            linkA5='https://drive.google.com/file/d/1s27YbJBy-2wyfM8dRHimSyH0Uwjknr0X/view?usp=drive_link'
                             title='FOR GOLF CLUBS'/>
                         <Card
-                            linkA4='https://drive.google.com/file/d/12lvy1n_DS-taT_j0AW6VQWhn2Oi0EWmu/view?usp=drive_link'
-                            linkA5='https://drive.google.com/file/d/1Q4rODV8WfLKf266vOl0jgPPjnV8RWFpe/view?usp=drive_link'
+                            linkA4='https://drive.google.com/file/d/1Xe4hExIX7ScPURnac6TfMb9pNSI7bP_E/view?usp=drive_link'
+                            linkA5='https://drive.google.com/file/d/1e4itmkxleM-hx0ccSmhAD8ZYc4AqcZGU/view?usp=drive_link'
                             title='FOR GOLF HOTELS'/>
                     </div>
                     <div className='support'>++++--+

@@ -1,8 +1,15 @@
-.qr_code {
+.qr_code_android {
     background-size: cover;
     width: 250px;
     height: 250px;
-    background-image: url("../../assets/not_qr.png");
+    background-image: url("../../assets/android.png");
+}
+
+.qr_code_iphone {
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    background-image: url("../../assets/Iphone.png");
 }
 
 .qr_block {

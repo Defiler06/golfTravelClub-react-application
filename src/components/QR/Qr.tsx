@@ -1,9 +1,9 @@
 import './Qr.css'
 
-const Qr = ({title}: { title: string }) => {
+const Qr = ({title, className}: { title: string, className: string }) => {
     return (
         <div className='qr_block'>
-            <div className='qr_code'></div>
+            <div className={className}></div>
             <p className='title_OS'>{title}</p>
         </div>
     )
