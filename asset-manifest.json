@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0b0c4905.css",
-    "main.js": "/static/js/main.c7efbb1a.js",
+    "main.css": "/static/css/main.280e8bef.css",
+    "main.js": "/static/js/main.c145a396.js",
     "static/js/787.79f09058.chunk.js": "/static/js/787.79f09058.chunk.js",
     "static/media/background.png": "/static/media/background.79458066b46ec45f0334.png",
     "static/media/background_section.png": "/static/media/background_section.0183cb4252177ef544b3.png",
     "static/media/phone.png": "/static/media/phone.ad8085da1516ebd29741.png",
     "static/media/logo.png": "/static/media/logo.30681af24ba456d5a911.png",
+    "static/media/android.png": "/static/media/android.00a9be00cbe0c763969e.png",
+    "static/media/Iphone.png": "/static/media/Iphone.1de9986969d7dc6bee4d.png",
     "index.html": "/index.html",
-    "main.0b0c4905.css.map": "/static/css/main.0b0c4905.css.map",
-    "main.c7efbb1a.js.map": "/static/js/main.c7efbb1a.js.map",
+    "main.280e8bef.css.map": "/static/css/main.280e8bef.css.map",
+    "main.c145a396.js.map": "/static/js/main.c145a396.js.map",
     "787.79f09058.chunk.js.map": "/static/js/787.79f09058.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b0c4905.css",
-    "static/js/main.c7efbb1a.js"
+    "static/css/main.280e8bef.css",
+    "static/js/main.c145a396.js"
   ]
 }
