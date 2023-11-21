@@ -18,7 +18,7 @@ function App() {
                                     <p>The idea for this application came to us - a group of golf friends</p>
                                     <p>from different countries who like to travel,</p>
                                     <p>discover new places and new golf courses.</p>
-                                    <p>Each of us has played more than 30, 40, 50 countries.</p>
+                                    <p>Each of us has played in more than 30, 40, 50 countries.</p>
                                     <p>And when somebody asked</p>
                                     <p>– How many countries and golf courses did you play?</p>
                                     <p>– there was no exact answer.</p>
