@@ -15,14 +15,15 @@ function App() {
                             <div className='about_us'>
                                 <h2 className='title_about'>About us</h2>
                                 <div className='subtitle_about'>
-                                    <p>The idea for this application came to us - a group of golf friends</p>
-                                    <p>from different countries who like to travel,</p>
-                                    <p>discover new places and new golf courses.</p>
-                                    <p>Each of us has played in more than 30, 40, 50 countries.</p>
-                                    <p>And when somebody asked</p>
-                                    <p>– How many countries and golf courses did you play?</p>
-                                    <p>– there was no exact answer.</p>
-                                    <p>Most golfers don’t want to waste time to record their statistics</p>
+                                    <p>We are a group of friends from different countries</p>
+                                    <p>who love to travel, discover new places and enjoy</p>
+                                    <p>different golf courses.</p>
+                                    <p>Each of us has played golf in over 30, 40, 50 countries.</p>
+                                    <p>And when someone asks - how many countries and</p>
+                                    <p>how many golf courses have you played in?</p>
+                                    <p>There is no exact answer.</p>
+                                    <p>Most golfers don't want to take the time to write</p>
+                                    <p>own their stats.</p>
                                 </div>
                             </div>
                         </div>
@@ -32,11 +33,13 @@ function App() {
                     <div className='container'>
                         <div className='our_app_title'>
                             <p>Our application will help such people.</p>
-                            <p>Now golfers can easily create <span
-                                className='green_text'>a LIFETIME COLLECTION OF</span></p>
+                            <p>Golfers now have access to a database of</p>
+                            <p>36,000+ golf courses,</p>
+                            <p>3,000+ 5-star hotels</p>
+                            <p>around the world</p>
+                            <p>and the ability to create a lifetime collection</p>
                             <p><span
-                                className='green_text'>THEIR COUNTRIES AND GOLF CLUBS</span> they
-                                have played in.</p>
+                                className='green_text'>OF THE COUNTRIES AND GOLF CLUBS</span> they have played in.</p>
                         </div>
                     </div>
                 </div>
@@ -45,14 +48,14 @@ function App() {
                         <div className='phone_container'>
                             <div className='title_our_app'>
                                 <div className='our_app_subtitle'>
-                                    <p>The reward will be the</p>
-                                    <p className='green_text'>PERSONAL CERTIFICATE OF ACHIEVEMENTS</p>
-                                    <p>which Golfers can send to their friends, business partners.</p>
-                                    <p>They can print it out and hang it in</p>
-                                    <p>a beautiful frame at home or in the office.</p>
+                                    <p>The reward will be</p>
+                                    <p className='green_text'>A PERSONALIZED CERTIFICATE OF ACHIEVEMENT</p>
+                                    <p>which golfers will be able to send to their friends,</p>
+                                    <p>business associates</p>
+                                    <p>They can print it out and hang it in a nice frame in</p>
+                                    <p>their home or office</p>
                                     <div className='good_luck'>
-                                        <p className='green_text'>Good luck</p>
-                                        <p className='green_text'>and enjoy your golf travels!</p>
+                                        <p className='green_text'>Make golf the best memory of your life!</p>
                                     </div>
                                 </div>
                                 <div className='qr_codes'>
@@ -79,12 +82,12 @@ function App() {
                     </div>
                     <div className='cards'>
                         <Card
-                            linkA4='https://drive.google.com/file/d/1q8FNnzdyA71YgY8r1Efgds2imwaIuIeO/view?usp=drive_link'
-                            linkA5='https://drive.google.com/file/d/1s27YbJBy-2wyfM8dRHimSyH0Uwjknr0X/view?usp=drive_link'
+                            linkA4='https://drive.google.com/file/d/1YxYb84aqoVLMzEDrnllz8n_7QoEsCXuy/view?usp=drive_link'
+                            linkA5='https://drive.google.com/file/d/1h24UAvQbo1QJHLRxsIjfpWYimh34-JVZ/view?usp=drive_link'
                             title='FOR GOLF CLUBS'/>
                         <Card
-                            linkA4='https://drive.google.com/file/d/1Xe4hExIX7ScPURnac6TfMb9pNSI7bP_E/view?usp=drive_link'
-                            linkA5='https://drive.google.com/file/d/1e4itmkxleM-hx0ccSmhAD8ZYc4AqcZGU/view?usp=drive_link'
+                            linkA4='https://drive.google.com/file/d/1yO3jNONs0CzWxdKZtfQa36f-MrLQD2hS/view?usp=drive_link'
+                            linkA5='https://drive.google.com/file/d/1bDSq78_IV8FAntCcQ7Ny8nYT8bFc8rKF/view?usp=drive_link'
                             title='FOR GOLF HOTELS'/>
                     </div>
                     <div className='support'>
